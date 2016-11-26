@@ -10,7 +10,13 @@
 
 @interface HMHtml : NSObject
 
+/**
+ *  网页标题
+ */
 @property (nonatomic, copy) NSString *title;
+/**
+ *  网页文件名
+ */
 @property (nonatomic, copy) NSString *html;
 @property (nonatomic, copy) NSString *ID;
 

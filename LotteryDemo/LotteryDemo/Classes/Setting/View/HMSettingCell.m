@@ -14,8 +14,19 @@
 
 @interface HMSettingCell()
 
+/**
+ *  箭头
+ */
 @property (nonatomic, strong) UIImageView *arrow;
+
+/**
+ *  开关
+ */
 @property (nonatomic, strong) UISwitch *switchView;
+
+/**
+ *  标签
+ */
 @property (nonatomic, strong) UILabel *labelView;
 
 @property (nonatomic, weak) UIView *divider;

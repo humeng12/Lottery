@@ -9,6 +9,21 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+
+//前补0
+#define STRINGNBULING(input,output,length)\
+{\
+int len=(int)strlen(input);\
+if((int)len==length)\
+strcpy(output,input);\
+else\
+{\
+for(int i=0;i<length-len;i++)\
+strcat(output,"0");\
+strcat(output,input);\
+}\
+}
+
 #ifdef __OBJC__
 
 #import "UIImage+Extension.h"

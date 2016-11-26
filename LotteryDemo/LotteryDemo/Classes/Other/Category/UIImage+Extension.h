@@ -16,4 +16,18 @@
  *  @param name 图片名字
  */
 + (UIImage *)resizableImage:(NSString *)name;
+
+
+// 加载图片自动匹配ios6，7
++ (UIImage *)imageWithName:(NSString *)name;
+
+
+//修改image的大小
+- (UIImage *)imageByScalingToSize:(CGSize)targetSize;
+
+// 控件截屏
++ (UIImage *)imageWithCaputureView:(UIView *)view;
+
++(UIImage*)imageWithImage:(UIImage*)image scaledToSize:(CGSize)newSize;
+
 @end

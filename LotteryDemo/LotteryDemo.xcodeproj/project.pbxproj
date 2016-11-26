@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B46BEEB1DE9C1A8009B7CA8 /* bufInfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BEDC1DE9C1A8009B7CA8 /* bufInfo.c */; };
+		6B46BEEC1DE9C1A8009B7CA8 /* connect.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BEDE1DE9C1A8009B7CA8 /* connect.c */; };
+		6B46BEED1DE9C1A8009B7CA8 /* dealTrans.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BEE01DE9C1A8009B7CA8 /* dealTrans.c */; };
+		6B46BEEE1DE9C1A8009B7CA8 /* EncrypteAndDecrypte.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BEE31DE9C1A8009B7CA8 /* EncrypteAndDecrypte.c */; };
+		6B46BEEF1DE9C1A8009B7CA8 /* printLog.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BEE51DE9C1A8009B7CA8 /* printLog.c */; };
+		6B46BEF01DE9C1A8009B7CA8 /* PublicMethod.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BEE71DE9C1A8009B7CA8 /* PublicMethod.c */; };
+		6B46BEF11DE9C1A8009B7CA8 /* Trans.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BEE91DE9C1A8009B7CA8 /* Trans.c */; };
+		6B46BEF41DE9C3E0009B7CA8 /* NSString+CustomCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BEF31DE9C3E0009B7CA8 /* NSString+CustomCategory.m */; };
+		6B46BEF91DE9C420009B7CA8 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BEF71DE9C420009B7CA8 /* GTMBase64.m */; };
+		6B46BEFF1DE9C4BA009B7CA8 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BEFC1DE9C4BA009B7CA8 /* SSKeychain.m */; };
+		6B46BF001DE9C4BA009B7CA8 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BEFE1DE9C4BA009B7CA8 /* SSKeychainQuery.m */; };
+		6B46BF031DE9C500009B7CA8 /* UIColor+CustomCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BF021DE9C500009B7CA8 /* UIColor+CustomCategory.m */; };
 		6B83A7BB1DE9B1D20009FCC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B83A7BA1DE9B1D20009FCC6 /* main.m */; };
 		6B83A7BE1DE9B1D20009FCC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B83A7BD1DE9B1D20009FCC6 /* AppDelegate.m */; };
 		6B83A7C11DE9B1D20009FCC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B83A7C01DE9B1D20009FCC6 /* ViewController.m */; };
@@ -110,6 +122,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B46BEDB1DE9C1A8009B7CA8 /* baoWenStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baoWenStruct.h; sourceTree = "<group>"; };
+		6B46BEDC1DE9C1A8009B7CA8 /* bufInfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bufInfo.c; sourceTree = "<group>"; };
+		6B46BEDD1DE9C1A8009B7CA8 /* bufInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bufInfo.h; sourceTree = "<group>"; };
+		6B46BEDE1DE9C1A8009B7CA8 /* connect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = connect.c; sourceTree = "<group>"; };
+		6B46BEDF1DE9C1A8009B7CA8 /* connect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connect.h; sourceTree = "<group>"; };
+		6B46BEE01DE9C1A8009B7CA8 /* dealTrans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dealTrans.c; sourceTree = "<group>"; };
+		6B46BEE11DE9C1A8009B7CA8 /* dealTrans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dealTrans.h; sourceTree = "<group>"; };
+		6B46BEE21DE9C1A8009B7CA8 /* defineParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defineParam.h; sourceTree = "<group>"; };
+		6B46BEE31DE9C1A8009B7CA8 /* EncrypteAndDecrypte.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = EncrypteAndDecrypte.c; sourceTree = "<group>"; };
+		6B46BEE41DE9C1A8009B7CA8 /* EncrypteAndDecrypte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncrypteAndDecrypte.h; sourceTree = "<group>"; };
+		6B46BEE51DE9C1A8009B7CA8 /* printLog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = printLog.c; sourceTree = "<group>"; };
+		6B46BEE61DE9C1A8009B7CA8 /* printLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = printLog.h; sourceTree = "<group>"; };
+		6B46BEE71DE9C1A8009B7CA8 /* PublicMethod.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PublicMethod.c; sourceTree = "<group>"; };
+		6B46BEE81DE9C1A8009B7CA8 /* PublicMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMethod.h; sourceTree = "<group>"; };
+		6B46BEE91DE9C1A8009B7CA8 /* Trans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Trans.c; sourceTree = "<group>"; };
+		6B46BEEA1DE9C1A8009B7CA8 /* Trans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trans.h; sourceTree = "<group>"; };
+		6B46BEF21DE9C3E0009B7CA8 /* NSString+CustomCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CustomCategory.h"; sourceTree = "<group>"; };
+		6B46BEF31DE9C3E0009B7CA8 /* NSString+CustomCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CustomCategory.m"; sourceTree = "<group>"; };
+		6B46BEF61DE9C420009B7CA8 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		6B46BEF71DE9C420009B7CA8 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		6B46BEF81DE9C420009B7CA8 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		6B46BEFB1DE9C4BA009B7CA8 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		6B46BEFC1DE9C4BA009B7CA8 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		6B46BEFD1DE9C4BA009B7CA8 /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
+		6B46BEFE1DE9C4BA009B7CA8 /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
+		6B46BF011DE9C500009B7CA8 /* UIColor+CustomCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomCategory.h"; sourceTree = "<group>"; };
+		6B46BF021DE9C500009B7CA8 /* UIColor+CustomCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomCategory.m"; sourceTree = "<group>"; };
 		6B83A7B61DE9B1D20009FCC6 /* LotteryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B83A7BA1DE9B1D20009FCC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B83A7BC1DE9B1D20009FCC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -271,6 +310,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B46BEDA1DE9BCBA009B7CA8 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				6B46BEDB1DE9C1A8009B7CA8 /* baoWenStruct.h */,
+				6B46BEDD1DE9C1A8009B7CA8 /* bufInfo.h */,
+				6B46BEDC1DE9C1A8009B7CA8 /* bufInfo.c */,
+				6B46BEDF1DE9C1A8009B7CA8 /* connect.h */,
+				6B46BEDE1DE9C1A8009B7CA8 /* connect.c */,
+				6B46BEE11DE9C1A8009B7CA8 /* dealTrans.h */,
+				6B46BEE01DE9C1A8009B7CA8 /* dealTrans.c */,
+				6B46BEE21DE9C1A8009B7CA8 /* defineParam.h */,
+				6B46BEE41DE9C1A8009B7CA8 /* EncrypteAndDecrypte.h */,
+				6B46BEE31DE9C1A8009B7CA8 /* EncrypteAndDecrypte.c */,
+				6B46BEE61DE9C1A8009B7CA8 /* printLog.h */,
+				6B46BEE51DE9C1A8009B7CA8 /* printLog.c */,
+				6B46BEE81DE9C1A8009B7CA8 /* PublicMethod.h */,
+				6B46BEE71DE9C1A8009B7CA8 /* PublicMethod.c */,
+				6B46BEEA1DE9C1A8009B7CA8 /* Trans.h */,
+				6B46BEE91DE9C1A8009B7CA8 /* Trans.c */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		6B46BEF51DE9C420009B7CA8 /* GtmBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				6B46BEF61DE9C420009B7CA8 /* GTMBase64.h */,
+				6B46BEF71DE9C420009B7CA8 /* GTMBase64.m */,
+				6B46BEF81DE9C420009B7CA8 /* GTMDefines.h */,
+			);
+			path = GtmBase64;
+			sourceTree = "<group>";
+		};
+		6B46BEFA1DE9C4BA009B7CA8 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				6B46BEFB1DE9C4BA009B7CA8 /* SSKeychain.h */,
+				6B46BEFC1DE9C4BA009B7CA8 /* SSKeychain.m */,
+				6B46BEFD1DE9C4BA009B7CA8 /* SSKeychainQuery.h */,
+				6B46BEFE1DE9C4BA009B7CA8 /* SSKeychainQuery.m */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
 		6B83A7AD1DE9B1D20009FCC6 = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +428,7 @@
 				6BBB00A21DE9B43400ED17A1 /* MyLottery */,
 				6BBB00A41DE9B43400ED17A1 /* Setting */,
 				6BBB009F1DE9B43400ED17A1 /* Lib */,
+				6B46BEDA1DE9BCBA009B7CA8 /* C */,
 				6BBB00A31DE9B43400ED17A1 /* Other */,
 			);
 			path = Classes;
@@ -363,6 +447,8 @@
 		6BBB009F1DE9B43400ED17A1 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				6B46BEFA1DE9C4BA009B7CA8 /* SSKeychain */,
+				6B46BEF51DE9C420009B7CA8 /* GtmBase64 */,
 				6BBB00C41DE9B50000ED17A1 /* MBProgressHUD */,
 				6BBB00A51DE9B45F00ED17A1 /* JSONModel */,
 			);
@@ -471,6 +557,10 @@
 			children = (
 				6BBB010C1DE9B52300ED17A1 /* UIImage+Extension.h */,
 				6BBB010D1DE9B52300ED17A1 /* UIImage+Extension.m */,
+				6B46BEF21DE9C3E0009B7CA8 /* NSString+CustomCategory.h */,
+				6B46BEF31DE9C3E0009B7CA8 /* NSString+CustomCategory.m */,
+				6B46BF011DE9C500009B7CA8 /* UIColor+CustomCategory.h */,
+				6B46BF021DE9C500009B7CA8 /* UIColor+CustomCategory.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -980,8 +1070,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BBB00CA1DE9B50000ED17A1 /* MBProgressHUD+MJ.m in Sources */,
+				6B46BF001DE9C4BA009B7CA8 /* SSKeychainQuery.m in Sources */,
 				6BBB01791DE9B89400ED17A1 /* HMAboutViewController.m in Sources */,
 				6BBB017D1DE9B89400ED17A1 /* HMAwardAnimViewController.m in Sources */,
+				6B46BF031DE9C500009B7CA8 /* UIColor+CustomCategory.m in Sources */,
+				6B46BEEE1DE9C1A8009B7CA8 /* EncrypteAndDecrypte.c in Sources */,
 				6BBB015A1DE9B7D100ED17A1 /* HMSettingLabelItem.m in Sources */,
 				6BBB018C1DE9B91700ED17A1 /* HMWheelButton.m in Sources */,
 				6BBB01291DE9B6C700ED17A1 /* HMBuyViewController.m in Sources */,
@@ -993,27 +1086,36 @@
 				6BBB01401DE9B77A00ED17A1 /* HMProductCell.m in Sources */,
 				6BBB013A1DE9B71F00ED17A1 /* HMTabBar.m in Sources */,
 				6BBB00BD1DE9B45F00ED17A1 /* JSONAPI.m in Sources */,
+				6B46BEF11DE9C1A8009B7CA8 /* Trans.c in Sources */,
 				6BBB00BC1DE9B45F00ED17A1 /* JSONModelError.m in Sources */,
 				6BBB01811DE9B89400ED17A1 /* HMBaseSettingViewController.m in Sources */,
+				6B46BEF01DE9C1A8009B7CA8 /* PublicMethod.c in Sources */,
 				6B83A7C11DE9B1D20009FCC6 /* ViewController.m in Sources */,
 				6BBB011F1DE9B62900ED17A1 /* HMLogViewController.m in Sources */,
 				6BBB015C1DE9B7D100ED17A1 /* HMProduct.m in Sources */,
 				6BBB00BA1DE9B45F00ED17A1 /* JSONModel.m in Sources */,
+				6B46BEFF1DE9C4BA009B7CA8 /* SSKeychain.m in Sources */,
+				6B46BEEC1DE9C1A8009B7CA8 /* connect.c in Sources */,
 				6BBB017B1DE9B89400ED17A1 /* HMHtmlViewController.m in Sources */,
 				6BBB018A1DE9B91700ED17A1 /* HMChooseView.m in Sources */,
+				6B46BEED1DE9C1A8009B7CA8 /* dealTrans.c in Sources */,
 				6BBB01261DE9B69900ED17A1 /* HMSelectViewController.m in Sources */,
+				6B46BEF41DE9C3E0009B7CA8 /* NSString+CustomCategory.m in Sources */,
 				6BBB00C01DE9B45F00ED17A1 /* JSONKeyMapper.m in Sources */,
 				6BBB00BF1DE9B45F00ED17A1 /* JSONModel+networking.m in Sources */,
 				6BBB00C11DE9B45F00ED17A1 /* JSONValueTransformer.m in Sources */,
 				6BBB017A1DE9B89400ED17A1 /* HMHelpViewController.m in Sources */,
 				6BBB01591DE9B7D100ED17A1 /* HMSettingGroup.m in Sources */,
 				6BBB013B1DE9B71F00ED17A1 /* HMTabBarButton.m in Sources */,
+				6B46BEEB1DE9C1A8009B7CA8 /* bufInfo.c in Sources */,
 				6BBB012C1DE9B6CE00ED17A1 /* HMButton.m in Sources */,
 				6BBB017E1DE9B89400ED17A1 /* HMAwardPushViewController.m in Sources */,
 				6BBB015B1DE9B7D100ED17A1 /* HMSwitchItem.m in Sources */,
 				6BBB01581DE9B7D100ED17A1 /* HMCellItem.m in Sources */,
 				6BBB00BE1DE9B45F00ED17A1 /* JSONHTTPClient.m in Sources */,
+				6B46BEF91DE9C420009B7CA8 /* GTMBase64.m in Sources */,
 				6BBB00CC1DE9B50000ED17A1 /* MBProgressHUD.m in Sources */,
+				6B46BEEF1DE9C1A8009B7CA8 /* printLog.c in Sources */,
 				6BBB01561DE9B7D100ED17A1 /* HMHtml.m in Sources */,
 				6BBB01351DE9B71700ED17A1 /* HMTabBarController.m in Sources */,
 				6BBB00BB1DE9B45F00ED17A1 /* JSONModelClassProperty.m in Sources */,

@@ -18,7 +18,9 @@
 @implementation HMButton
 
 
-#pragma 从文件解析一个对象时就会调用
+/**
+ *  从文件中解析一个对象的时候就会调用这个方法
+ */
 - (instancetype)initWithCoder:(NSCoder *)coder
 {
     self = [super initWithCoder:coder];
@@ -28,6 +30,9 @@
     return self;
 }
 
+/**
+ *  通过代码创建控件的时候就会调用
+ */
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -38,6 +43,9 @@
     return self;
 }
 
+/**
+ *  初始化
+ */
 -(void)setup
 {
     self.font = [UIFont systemFontOfSize:14];
@@ -46,6 +54,11 @@
     self.imageView.contentMode = UIViewContentModeCenter;
 }
 
+
+/**
+ *  控制器内部label的frame
+ *  contentRect : 按钮自己的边框
+ */
 -(CGRect)titleRectForContentRect:(CGRect)contentRect
 {
     CGFloat titleX = 0;
@@ -66,6 +79,10 @@
     return CGRectMake(titleX, titleY, titleW, titleH);
 }
 
+
+/**
+ *  控制器内部imageView的frame
+ */
 -(CGRect)imageRectForContentRect:(CGRect)contentRect
 {
     CGFloat imageW = 30;

@@ -21,6 +21,7 @@
     
 //    [self.tabBar removeFromSuperview];
     
+    //添加自己的tabbar
     HMTabBar *myTabBar = [[HMTabBar alloc] init];
     myTabBar.delagate = self;
     myTabBar.frame = self.tabBar.bounds;
