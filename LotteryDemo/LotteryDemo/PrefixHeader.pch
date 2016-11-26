@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  LotteryDemo
+//
+//  Created by 胡猛 on 2016/11/26.
+//  Copyright © 2016年 HuMeng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import "UIImage+Extension.h"
+#import "MBProgressHUD+MJ.h"
+#import "JSONModelLib.h"
+
+#define   IOS7   ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 7.0)
+
+
+#define HMColor(r,g,b)  [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0];
+
+#define WeakSelf __weak typeof(self) weakSelf = self;
+
+
+#endif
+
+
+#endif /* PrefixHeader_pch */
