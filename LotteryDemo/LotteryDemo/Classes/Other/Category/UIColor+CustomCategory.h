@@ -13,7 +13,7 @@
 /**
  *  @brief  字符串转颜色
  *
- *  @param stringToConvert(如#55555)
+ * 参数： stringToConvert(如#55555)
  */
 +(UIColor *) colorWithHexString: (NSString *) stringToConvert;
 @end
