@@ -19,6 +19,12 @@
 		6B46BEFF1DE9C4BA009B7CA8 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BEFC1DE9C4BA009B7CA8 /* SSKeychain.m */; };
 		6B46BF001DE9C4BA009B7CA8 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BEFE1DE9C4BA009B7CA8 /* SSKeychainQuery.m */; };
 		6B46BF031DE9C500009B7CA8 /* UIColor+CustomCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BF021DE9C500009B7CA8 /* UIColor+CustomCategory.m */; };
+		6B53905E1DED298C003B7BB5 /* ILCircleBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5390551DED298C003B7BB5 /* ILCircleBgView.m */; };
+		6B53905F1DED298C003B7BB5 /* ILCircleItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5390571DED298C003B7BB5 /* ILCircleItemView.m */; };
+		6B5390601DED298C003B7BB5 /* ILCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5390591DED298C003B7BB5 /* ILCircleView.m */; };
+		6B5390611DED298C003B7BB5 /* ILCircleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B53905A1DED298C003B7BB5 /* ILCircleView.xib */; };
+		6B5390621DED298C003B7BB5 /* ILThreeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B53905C1DED298C003B7BB5 /* ILThreeButton.m */; };
+		6B5390631DED298C003B7BB5 /* ILThreeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B53905D1DED298C003B7BB5 /* ILThreeButton.xib */; };
 		6B83A7BB1DE9B1D20009FCC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B83A7BA1DE9B1D20009FCC6 /* main.m */; };
 		6B83A7BE1DE9B1D20009FCC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B83A7BD1DE9B1D20009FCC6 /* AppDelegate.m */; };
 		6B83A7C11DE9B1D20009FCC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B83A7C01DE9B1D20009FCC6 /* ViewController.m */; };
@@ -149,6 +155,16 @@
 		6B46BEFE1DE9C4BA009B7CA8 /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
 		6B46BF011DE9C500009B7CA8 /* UIColor+CustomCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomCategory.h"; sourceTree = "<group>"; };
 		6B46BF021DE9C500009B7CA8 /* UIColor+CustomCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomCategory.m"; sourceTree = "<group>"; };
+		6B5390541DED298C003B7BB5 /* ILCircleBgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILCircleBgView.h; sourceTree = "<group>"; };
+		6B5390551DED298C003B7BB5 /* ILCircleBgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILCircleBgView.m; sourceTree = "<group>"; };
+		6B5390561DED298C003B7BB5 /* ILCircleItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILCircleItemView.h; sourceTree = "<group>"; };
+		6B5390571DED298C003B7BB5 /* ILCircleItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILCircleItemView.m; sourceTree = "<group>"; };
+		6B5390581DED298C003B7BB5 /* ILCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILCircleView.h; sourceTree = "<group>"; };
+		6B5390591DED298C003B7BB5 /* ILCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILCircleView.m; sourceTree = "<group>"; };
+		6B53905A1DED298C003B7BB5 /* ILCircleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ILCircleView.xib; sourceTree = "<group>"; };
+		6B53905B1DED298C003B7BB5 /* ILThreeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILThreeButton.h; sourceTree = "<group>"; };
+		6B53905C1DED298C003B7BB5 /* ILThreeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILThreeButton.m; sourceTree = "<group>"; };
+		6B53905D1DED298C003B7BB5 /* ILThreeButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ILThreeButton.xib; sourceTree = "<group>"; };
 		6B83A7B61DE9B1D20009FCC6 /* LotteryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B83A7BA1DE9B1D20009FCC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B83A7BC1DE9B1D20009FCC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -754,6 +770,16 @@
 		6BBB01231DE9B68000ED17A1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6B5390541DED298C003B7BB5 /* ILCircleBgView.h */,
+				6B5390551DED298C003B7BB5 /* ILCircleBgView.m */,
+				6B5390561DED298C003B7BB5 /* ILCircleItemView.h */,
+				6B5390571DED298C003B7BB5 /* ILCircleItemView.m */,
+				6B5390581DED298C003B7BB5 /* ILCircleView.h */,
+				6B5390591DED298C003B7BB5 /* ILCircleView.m */,
+				6B53905A1DED298C003B7BB5 /* ILCircleView.xib */,
+				6B53905B1DED298C003B7BB5 /* ILThreeButton.h */,
+				6B53905C1DED298C003B7BB5 /* ILThreeButton.m */,
+				6B53905D1DED298C003B7BB5 /* ILThreeButton.xib */,
 				6BBB01851DE9B91700ED17A1 /* HMChooseView.h */,
 				6BBB01861DE9B91700ED17A1 /* HMChooseView.m */,
 				6BBB01871DE9B91700ED17A1 /* HMChooseView.xib */,
@@ -1024,9 +1050,11 @@
 				6BBB00EE1DE9B50900ED17A1 /* bjdc_howto.html in Resources */,
 				6BBB018B1DE9B91700ED17A1 /* HMChooseView.xib in Resources */,
 				6BBB00FB1DE9B50900ED17A1 /* k2_howto.html in Resources */,
+				6B5390631DED298C003B7BB5 /* ILThreeButton.xib in Resources */,
 				6B83A7C61DE9B1D20009FCC6 /* Assets.xcassets in Resources */,
 				6BBB01091DE9B50900ED17A1 /* y11_howto.html in Resources */,
 				6BBB00EF1DE9B50900ED17A1 /* coupon_help.html in Resources */,
+				6B5390611DED298C003B7BB5 /* ILCircleView.xib in Resources */,
 				6BBB00F01DE9B50900ED17A1 /* credit_help.html in Resources */,
 				6BBB01081DE9B50900ED17A1 /* x3d_howto.html in Resources */,
 				6BBB01021DE9B50900ED17A1 /* qlc_howto.html in Resources */,
@@ -1076,6 +1104,7 @@
 				6B46BF031DE9C500009B7CA8 /* UIColor+CustomCategory.m in Sources */,
 				6B46BEEE1DE9C1A8009B7CA8 /* EncrypteAndDecrypte.c in Sources */,
 				6BBB015A1DE9B7D100ED17A1 /* HMSettingLabelItem.m in Sources */,
+				6B53905E1DED298C003B7BB5 /* ILCircleBgView.m in Sources */,
 				6BBB018C1DE9B91700ED17A1 /* HMWheelButton.m in Sources */,
 				6BBB01291DE9B6C700ED17A1 /* HMBuyViewController.m in Sources */,
 				6BBB01801DE9B89400ED17A1 /* HMScoreTimeViewController.m in Sources */,
@@ -1085,7 +1114,9 @@
 				6BBB017F1DE9B89400ED17A1 /* HMPushViewController.m in Sources */,
 				6BBB01401DE9B77A00ED17A1 /* HMProductCell.m in Sources */,
 				6BBB013A1DE9B71F00ED17A1 /* HMTabBar.m in Sources */,
+				6B5390601DED298C003B7BB5 /* ILCircleView.m in Sources */,
 				6BBB00BD1DE9B45F00ED17A1 /* JSONAPI.m in Sources */,
+				6B5390621DED298C003B7BB5 /* ILThreeButton.m in Sources */,
 				6B46BEF11DE9C1A8009B7CA8 /* Trans.c in Sources */,
 				6BBB00BC1DE9B45F00ED17A1 /* JSONModelError.m in Sources */,
 				6BBB01811DE9B89400ED17A1 /* HMBaseSettingViewController.m in Sources */,
@@ -1112,6 +1143,7 @@
 				6BBB017E1DE9B89400ED17A1 /* HMAwardPushViewController.m in Sources */,
 				6BBB015B1DE9B7D100ED17A1 /* HMSwitchItem.m in Sources */,
 				6BBB01581DE9B7D100ED17A1 /* HMCellItem.m in Sources */,
+				6B53905F1DED298C003B7BB5 /* ILCircleItemView.m in Sources */,
 				6BBB00BE1DE9B45F00ED17A1 /* JSONHTTPClient.m in Sources */,
 				6B46BEF91DE9C420009B7CA8 /* GTMBase64.m in Sources */,
 				6BBB00CC1DE9B50000ED17A1 /* MBProgressHUD.m in Sources */,
@@ -1272,6 +1304,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hrt.com.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1286,6 +1319,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hrt.com.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

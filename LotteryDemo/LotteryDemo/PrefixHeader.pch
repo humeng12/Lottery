@@ -38,6 +38,13 @@ strcat(output,input);\
 #define WeakSelf __weak typeof(self) weakSelf = self;
 
 
+//是否为4英寸
+#define is4Inch ([UIScreen mainScreen].bounds.size.height == 568.0)
+
+//是否为retina
+#define isRetina ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? ([[UIScreen mainScreen] currentMode].size.width == 640) : NO)
+
+
 #endif
 
 
